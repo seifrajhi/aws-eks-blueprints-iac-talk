@@ -131,7 +131,20 @@ module "eks_blueprints_addons" {
 
   # This is required to expose Istio Ingress Gateway
   enable_aws_load_balancer_controller = true
-
+  eks_addons = {
+    aws-ebs-csi-driver = {
+      most_recent = true
+    }
+    coredns = {
+      most_recent = true
+    }
+    vpc-cni = {
+      most_recent = true
+    }
+    kube-proxy = {
+      most_recent = true
+    }
+  }
 
   
 

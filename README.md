@@ -1,4 +1,4 @@
-# Amazon EKS Cluster with Istio
+# Amazon EKS Cluster with Istio Blueprints 
 
 This code shows how to provision an EKS cluster with Istio and some of EKS add-ons.
 
